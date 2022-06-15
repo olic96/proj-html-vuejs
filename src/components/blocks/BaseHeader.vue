@@ -8,6 +8,7 @@
 <script>
 // import CardNav from './commons/CardNav.vue';
 export default {
+    name: 'BaseHeader',
     // name: CardNav,
 }
 </script>
@@ -15,7 +16,7 @@ export default {
 <style lang="scss">
 header {
     display: flex;
-    height: 6.25rem;
+    height: 110px;
 }
 
 .logo {

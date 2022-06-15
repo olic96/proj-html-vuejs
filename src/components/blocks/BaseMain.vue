@@ -1,12 +1,15 @@
 <template>
   <main>
-      
+    <BaseHero/>
   </main>
 </template>
 
 <script>
-export default {
+import BaseHero from '../sections/BaseHero.vue'
 
+export default {
+  components: { BaseHero },
+  name: 'BaseMain',
 }
 </script>
 

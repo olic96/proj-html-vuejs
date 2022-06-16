@@ -15,8 +15,8 @@ export default {
 
 <style lang="scss" scoped>
     .section_3 {
-        height: 400px;
-        background-image:url("../../fable/images/parallax_01.jpg");
-        background-size: cover;
+      height: 350px;
+      background-image:url("../../fable/images/parallax_01.jpg");
+      background-size: cover;
     }
 </style>

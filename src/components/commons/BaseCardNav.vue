@@ -1,7 +1,7 @@
 <template>
   <nav>
       <ul>
-          <li v-for="(link, index) in links" :key="index">
+          <li v-for="(link, index) in links" :key="index" :class="{active : link.isActive}" @click="active(index)">
               <img :src="link.icon">
               <a href="#">{{link.text}}</a>
           </li>
@@ -14,7 +14,7 @@ export default {
     name:'BaseCardNav',
     data() {
         return {
-           links: [
+            links: [
                {
                    text: "Home",
                    icon: "../../fable/home.png",
@@ -63,10 +63,20 @@ export default {
                    isActive: false,
                    href:"#",
                },
-
-           ]
+             ]
         }
-    }
+        
+    },
+
+    methods: {
+    active(index) {
+        this.links.forEach(link => {
+            link.isActive = false;
+        });
+        this.links[index].isActive = !this.links[index].isActive;
+        }
+    },
+    
 }
 </script>
 
@@ -90,6 +100,11 @@ export default {
 
         :hover a {
             color: var(--third-color);
+        }
+
+        .active a {
+        background-color: var(--second-color);
+        color: var(--third-color);
         }
     }
 

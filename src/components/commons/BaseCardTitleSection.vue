@@ -15,5 +15,9 @@ export default {
 <style lang="scss" scoped>
     .col-12 {
         text-align: center;
+
+        h1 {
+            color: var(--first-color);
+        }
     }
 </style>

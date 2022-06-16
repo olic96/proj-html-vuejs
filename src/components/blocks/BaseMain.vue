@@ -38,6 +38,6 @@ export default {
 
 <style>
   main {
-    width: 100vw;
+    color: #778899;
   }
 </style>

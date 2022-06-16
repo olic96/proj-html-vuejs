@@ -10,6 +10,8 @@
     <BaseSection7/>
     <BaseSection8/>
     <BaseSection9/>
+    <BaseSection10/>
+    <BaseSection11/>
   </main>
 </template>
 
@@ -24,14 +26,18 @@ import BaseSection6 from '../sections/BaseSection6.vue'
 import BaseSection7 from '../sections/BaseSection7.vue'
 import BaseSection8 from '../sections/BaseSection8.vue'
 import BaseSection9 from '../sections/BaseSection9.vue'
+import BaseSection10 from '../sections/BaseSection10.vue'
+import BaseSection11 from '../sections/BaseSection11.vue'
 
 
 export default {
-  components: { BaseHero, BaseSection1, BaseSection2, BaseSection3, BaseSection4, BaseSection5, BaseSection6, BaseSection7, BaseSection8, BaseSection9 },
+  components: { BaseHero, BaseSection1, BaseSection2, BaseSection3, BaseSection4, BaseSection5, BaseSection6, BaseSection7, BaseSection8, BaseSection9, BaseSection10, BaseSection11 },
   name: 'BaseMain',
 }
 </script>
 
 <style>
- 
+  main {
+    width: 100vw;
+  }
 </style>

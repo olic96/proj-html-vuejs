@@ -1,25 +1,28 @@
 <template>
   <header class="container">
     <img class="logo" src="../../fable/images/logo.png" alt="logo">
-    <!-- <CardNav/> -->
+    <BaseCardNav/>
   </header>
 </template>
 
 <script>
-// import CardNav from './commons/CardNav.vue';
+import BaseCardNav from '../commons/BaseCardNav.vue';
 export default {
+    components: { BaseCardNav },
     name: 'BaseHeader',
-    // name: CardNav,
+    
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 header {
-    display: flex;
-    height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
 }
 
 .logo {
-    height: 100%;
+  height: 100%;
 }
 </style>

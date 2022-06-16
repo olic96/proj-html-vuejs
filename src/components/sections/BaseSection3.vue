@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
     .section_3 {
         height: 400px;
         background-image:url("../../fable/images/parallax_01.jpg");

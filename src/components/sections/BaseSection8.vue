@@ -1,7 +1,10 @@
 <template>
   <section class="section_8">
       <div class="container">
+          <img src="../../fable/images/quote_alt.png"><br>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem minima debitis quis excepturi quo itaque aspernatur voluptates expedita neque recusandae, quia, ab magnam dignissimos iste, ea libero. Eveniet, quia beatae?
+          <hr>
+          Lorem
       </div>
   </section>
 </template>
@@ -21,5 +24,6 @@ export default {
 
     .container {
         text-align: center;
+        color: var(--third-color);
     }
 </style>

@@ -4,12 +4,17 @@
       <BaseCardTitleSection/>
       <div class="row">
           <div class="col-6">
-              <h4></h4>
-              <!-- v-for create card-->
+              <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
+              <BaseCardSection4/>
+              <BaseCardSection4/>
+
+
           </div>
           <div class="col-6">
-              <p></p>
-              <!-- v-for create card -->
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum eligendi enim recusandae.</p>
+              <BaseCardSection4/>
+              <BaseCardSection4/>
+             
           </div>
       </div>
     </div>
@@ -17,9 +22,10 @@
 </template>
 
 <script>
+import BaseCardSection4 from '../commons/BaseCardSection4.vue'
 import BaseCardTitleSection from '../commons/BaseCardTitleSection.vue'
 export default {
-    components: { BaseCardTitleSection },
+    components: { BaseCardTitleSection, BaseCardSection4 },
     name:'BaseSection4',
 }
 </script>

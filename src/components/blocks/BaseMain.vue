@@ -40,4 +40,12 @@ export default {
   main {
     color: #778899;
   }
+
+  h5 {
+    color:var(--first-color);
+  }
+
+  h4 {
+    color:var(--first-color);
+  }
 </style>

@@ -1,42 +1,26 @@
 <template>
-  <section>
+  <section class="section_3">
       <div class="container">
           <div class="row">
-              <div class="col-6">
-                  <button>Overview</button>
-                  <button>OurMission</button>
-                  <h4></h4>
-                  <div>
-                      <img src="">
-                      <h5></h5>
-                      <p></p>
-                  </div>
-                   <div>
-                      <img src="">
-                      <h5></h5>
-                      <p></p>
-                  </div>
-              </div>
-              <div class="col-6">
-                  <div class="row">
-                      <div class="col-6">
-                          <div class="col-12"><img src=""></div>
-                          <div class="col-12"><img src=""></div>
-                          <div class="col-12"><img src=""></div>
-                      </div>
-                  </div>
-              </div>
+              <BaseCardSection2Left/>
+              <BaseCardSection2Right/>
           </div>
       </div>
   </section>
 </template>
 
 <script>
+import BaseCardSection2Left from '../commons/BaseCardSection2Left.vue'
+import BaseCardSection2Right from '../commons/BaseCardSection2Right.vue'
+
 export default {
+    components:{ BaseCardSection2Left, BaseCardSection2Right },
     name:'BaseSection2',
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+    .section_3 {
+        background-color: var(--third-color);
+    }
 </style>

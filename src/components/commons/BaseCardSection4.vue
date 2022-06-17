@@ -1,8 +1,8 @@
 <template>
-  <div class="card">
+  <div class="card my-3">
       <div class="purple">
-          <h5>Lorem</h5>
-          <p>Lorem</p>
+          <h5>Lorem lorem</h5>
+          <p>Lorem </p>
           <div class="sector">
               <div class="mouth">
                   12-24 <br>
@@ -12,6 +12,7 @@
           </div>
       </div>
       <div class="img">
+          <img src="../../fable/images/gallery_04.jpg" alt="">
           <button>READ MORE<i class="fa-solid fa-angle-right"></i></button>
       </div>
   </div>
@@ -26,16 +27,25 @@ export default {
 <style lang="scss" scoped>
 .card {
     display: flex;
+    flex-wrap: nowrap;
+    color: var(--third-color);
 }
 
 .purple {
     background-color: var(--first-color);
 }
 
-.img {
-    position: relative;
-    background-image: url("../../fable/images/gallery_04.jpg");
-    background-size: cover;
+.col-6 img {
+   width: 100%;
+}
+
+.sector, h5, p  {
+    margin-left: 20px;
+    margin-top: 20px ;
+}
+
+h5 {
+    color: var(--third-color);
 }
 
 button {

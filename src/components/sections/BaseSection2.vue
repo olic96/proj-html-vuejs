@@ -1,7 +1,7 @@
 <template>
-  <section class="section_3">
+  <section class="section_3 my-5">
       <div class="container">
-          <div class="row">
+          <div class="row py-5">
               <BaseCardSection2Left/>
               <BaseCardSection2Right/>
           </div>

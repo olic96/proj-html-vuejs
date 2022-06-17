@@ -1,7 +1,7 @@
 <template>
    <div class="col-6">
         <div class="row">
-           <div class="col-6">
+           <div class="col-12 my-3">
                <img class="img_col" src="../../fable/images/gallery_01.jpg">
             </div> 
         </div>
@@ -22,8 +22,8 @@ name:'BaseCardSection2Right'
 
 <style lang="scss" scoped>
 
-.col-4 img, .col-6 img {
-    max-width: 100%;
+.col-4 img, .col-12 img {
+    width: 100%;
 }
 
 </style>

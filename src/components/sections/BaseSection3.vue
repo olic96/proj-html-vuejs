@@ -1,5 +1,5 @@
 <template>
-  <section class="section_3">
+  <section class="section_3 my-5">
     <BaseCardSection3/>
   </section>
 </template>

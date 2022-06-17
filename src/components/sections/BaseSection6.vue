@@ -1,11 +1,11 @@
 <template>
-  <section>
+  <section class="my-5">
       <div class="section_6_top">
-          <img src="../../fable/images/gallery_01.jpg">
-      <img src="../../fable/images/gallery_02.jpg">
-      <img src="../../fable/images/gallery_03.jpg">
-      <img src="../../fable/images/gallery_04.jpg">
-      </div>
+        <img src="../../fable/images/gallery_01.jpg">
+        <img src="../../fable/images/gallery_02.jpg">
+        <img src="../../fable/images/gallery_03.jpg">
+        <img src="../../fable/images/gallery_04.jpg">
+        </div>
       <BaseCardHeroBottom/>
   </section>
 </template>

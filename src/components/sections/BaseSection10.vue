@@ -1,14 +1,11 @@
 <template>
-  <section class="section_10">
+  <section class="section_10 my-5">
       <img src="../../fable/images/vt (1).png">
       <img src="../../fable/images/vt (2).png">
       <img src="../../fable/images/vt (3).png">
       <img src="../../fable/images/vt (4).png">
       <img src="../../fable/images/vt (5).png">
       <img src="../../fable/images/vt (6).png">
-      <img src="../../fable/images/vt (7).png">
-      <img src="../../fable/images/vt (8).png">
-
   </section>
 </template>
 

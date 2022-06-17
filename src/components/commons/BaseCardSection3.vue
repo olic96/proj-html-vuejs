@@ -1,23 +1,23 @@
 <template>
   <div class="container">
-      <div class="row">
+      <div class="row py-5">
           <div class="col-3">
-              <div class="number">507</div>
+              <div class="number my-3">507</div>
               <h5>Lorem</h5>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div class="col-3">
-              <div class="number">507</div>
+              <div class="number my-3">507</div>
               <h5>Lorem</h5>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div class="col-3">
-              <div class="number">507</div>
+              <div class="number my-3">507</div>
               <h5>Lorem</h5>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div class="col-3">
-              <div class="number">507</div>
+              <div class="number my-3">507</div>
               <h5>Lorem</h5>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>

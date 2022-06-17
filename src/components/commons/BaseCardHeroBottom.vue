@@ -32,7 +32,7 @@ export default {
     }
 
     h2, button {
-        margin-top: 30px;
+        margin-top: 35px;
     }
 
     button {

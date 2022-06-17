@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="my-5">
       <div class="container">
           <BaseCardTitleSection/>
           <div class="row">

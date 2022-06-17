@@ -2,7 +2,7 @@
   <nav>
       <ul>
           <li v-for="(link, index) in links" :key="index" :class="{active : link.isActive}" @click="active(index)">
-              <img :src="link.icon">
+              <img :src="'../../fable/' + link.icon">
               <a href="#">{{link.text}}</a>
           </li>
       </ul>
@@ -17,49 +17,49 @@ export default {
             links: [
                {
                    text: "Home",
-                   icon: "../../fable/home.png",
+                   icon: "home.png",
                    isActive: false,
                    href:"#",
                },
 
                {
                    text: "Pages",
-                   icon:"../../fable/document.png",
+                   icon:"document.png",
                    isActive: false,
                    href:"#",
                },
 
                {
                    text: "Blog",
-                   icon:"../../fable/printer.png",
+                   icon:"printer.png",
                    isActive: false,
                    href:"#",
                },
 
                {
                    text: "Shop",
-                   icon:"../../fable/cart.png",
+                   icon:"cart.png",
                    isActive: false,
                    href:"#",
                },
 
                {
                    text: "Shortcodes",
-                   icon:"../../fable/lab.png",
+                   icon:"lab.png",
                    isActive: false,
                    href:"#",
                },
 
                {
                    text: "Support",
-                   icon:"../../fable/chat.png",
+                   icon:"chat.png",
                    isActive: false,
                    href:"#",
                },
 
                {
                    text: "Contact",
-                   icon:"../../fable/envelope.png",
+                   icon:"envelope.png",
                    isActive: false,
                    href:"#",
                },

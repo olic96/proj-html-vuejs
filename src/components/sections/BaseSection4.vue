@@ -1,20 +1,18 @@
 <template>
-  <section>
+  <section class="my-5">
     <div class="container">
       <BaseCardTitleSection/>
-      <div class="row">
+      <div class="row my-5">
           <div class="col-6">
-              <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
-              <BaseCardSection4/>
-              <BaseCardSection4/>
-
-
+            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
+            <BaseCardSection4/>
+            <BaseCardSection4/>
           </div>
           <div class="col-6">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum eligendi enim recusandae.</p>
-              <BaseCardSection4/>
-              <BaseCardSection4/>
-             
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet
+            </p>
+            <BaseCardSection4/>
+            <BaseCardSection4/> 
           </div>
       </div>
     </div>
@@ -30,6 +28,7 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style lang="scss" scoped>
+  
+</style>>
+  

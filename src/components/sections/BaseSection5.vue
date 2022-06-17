@@ -1,5 +1,5 @@
 <template>
-  <section class="section_5">
+  <section class="section_5 my-5">
       <div class="container">
          <div class="row">
               <div class="col-6">
@@ -28,27 +28,35 @@
                   </li>
               </ul>
           </div>
-          <div class="col-6">
+          <div class="col-6 col_left">
               <div class="row">
-                  <div class="col-3">
-                      <img src="../../fable/images/toy.png">
+                  <div class="col-6">
+                      <div class="background">
+                          <img src="../../fable/images/toy.png">
+                      </div>
                       <h5>Lorem</h5>
                       <p>Lorem ipsum dolor sit amet.</p>
                   </div>
-                  <div class="col-3">
-                      <img src="../../fable/images/toy.png">
+                  <div class="col-6">
+                      <div class="background">
+                          <img src="../../fable/images/toy.png">
+                      </div>
                       <h5>Lorem</h5>
                       <p>Lorem ipsum dolor sit amet.</p>
                   </div>
               </div>
               <div class="row">
-                  <div class="col-3">
-                      <img src="../../fable/images/toy.png">
+                  <div class="col-6">
+                      <div class="background">
+                          <img src="../../fable/images/toy.png">
+                      </div>
                       <h5>Lorem</h5>
                       <p>Lorem ipsum dolor sit amet.</p>
                   </div>
-                  <div class="col-3">
-                      <img src="../../fable/images/toy.png">
+                  <div class="col-6">
+                      <div class="background">
+                          <img src="../../fable/images/toy.png">
+                      </div>
                       <h5>Lorem</h5>
                       <p>Lorem ipsum dolor sit amet.</p>
                   </div>
@@ -70,7 +78,23 @@ export default {
         background-color: var(--third-color);
     }
 
+    .col-6, .col-6 h4, .col-6 p {
+        margin: 20px 0;
+    }
+
     ul li {
         display: block;
+    }
+
+    span img {
+        margin-right: 10px;
+    }
+
+    .col_left {
+        text-align: center;
+    }
+
+    .col_left img {
+        margin-bottom: 15px;
     }
 </style>
